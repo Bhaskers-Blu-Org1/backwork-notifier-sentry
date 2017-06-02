@@ -12,7 +12,7 @@ with open(path.join(HERE, 'README.md')) as f:
 
 setup(
     name="monsoon-notifier-sentry",
-    version="0.1.1",
+    version="0.1.2",
     description="Monsoon plug-in for Sentry notifications.",
     long_description=LONG_DESCRIPTION,
     url="https://github.ibm.com/apset/monsoon",
