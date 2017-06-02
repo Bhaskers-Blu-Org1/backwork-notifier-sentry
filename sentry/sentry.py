@@ -1,4 +1,6 @@
-import sys
+"""Add support for Sentry notifications.
+"""
+
 from raven import Client
 
 class SentryNotifier(object):
@@ -15,8 +17,8 @@ class SentryNotifier(object):
     def parse_args(cls, parser):
         """Add command line argument parsing rules for Sentry."""
         parser.add_argument("--sentry-dsn", required=False,
-            help="""Sentry DSN to be used for notifications. It can also be set
-            with the evironment variable $SENTRY_DSN.""")
+                            help="""Sentry DSN to be used for notifications. It can also be set
+                            with the evironment variable $SENTRY_DSN.""")
 
     def notify(self, msg=""):
         """Send a message to Sentry server.
