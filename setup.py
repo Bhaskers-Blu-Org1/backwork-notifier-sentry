@@ -12,7 +12,7 @@ with open(path.join(HERE, 'README.md')) as f:
 
 setup(
     name="monsoon-notifier-sentry",
-    version="0.1.3",
+    version="0.1.4",
     description="Monsoon plug-in for Sentry notifications.",
     long_description=LONG_DESCRIPTION,
     url="https://github.ibm.com/apset/monsoon",
@@ -34,7 +34,7 @@ setup(
     packages=find_packages(),
     install_requires=[
         "monsoon-cli>=0.1.4",
-        "raven==5.32.0"
+        "raven==6.6.0"
     ],
     entry_points={
         "monsoon.notifiers": [
