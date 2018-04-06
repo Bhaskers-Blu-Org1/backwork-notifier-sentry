@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 -   Updated Sentry Raven from `5.32.0` to `6.6.0`
 
 ### Fixed
--   Dependency name
+-   Changelog.
 
 
 ## 0.1.1 - 2017-06-02
