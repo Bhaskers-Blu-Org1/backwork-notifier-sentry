@@ -3,7 +3,8 @@
 
 from raven import Client
 
-class SentryNotifier(object):
+
+class SentryNotifier(object):  # pylint: disable=unused-variable
     """Send messages to a Sentry server."""
     command = "sentry"
 
