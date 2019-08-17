@@ -39,7 +39,7 @@ setup(
         "raven==6.6.0"
     ],
     entry_points={
-        "monsoon.notifiers": [
+        "backwork.notifiers": [
             "sentry=sentry:SentryNotifier"
         ]
     }

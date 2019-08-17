@@ -20,5 +20,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Fixed
 -   Dependency name
 
-[Unreleased]: https://github.ibm.com/apset/monsoon-notifier-sentry/compare/0.1.4...HEAD
-[0.1.4]: https://github.ibm.com/apset/monsoon-notifier-sentry/compare/0.1.1...0.1.4
+[Unreleased]: https://github.ibm.com/apset/backwork-notifier-sentry/compare/0.1.4...HEAD
+[0.1.4]: https://github.ibm.com/apset/backwork-notifier-sentry/compare/0.1.1...0.1.4
