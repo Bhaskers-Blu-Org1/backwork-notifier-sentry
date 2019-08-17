@@ -1,0 +1,17 @@
+language: python
+python: '3.6'
+cache:
+  pip: true
+install:
+- pip install .
+script:
+- echo "no tests implemented"
+deploy:
+  matrix:
+  - provider: pypi
+    user: __token__
+    password:
+      secure: WLe/cRjnQEiAjSGc22byoCJY/EZNHzctjGSpOlM4E60f4ICuyOoze4C2d9IHtfZNH8C2aJTkOWd/DWQ+bSo8QeV3mJyIZ+WTb5hSK1I1ytbepZuYIooj7Q13T2hHWghwTW5ZM3L0iSFlnyoQQLe7BTlKMIximo16sdt2fXQe9qiuJxE3E+zFlVRtwbIiHVWwji50QOo4m3tb7nlkyNk664CKalc+/52ckAty6ZRwlCYuSbhtWE0/x2NDZ8qlMjdcyeVVC7uXe0/BpLYamIm/Id/MI8fg81K/ohM6tt3aYB07qKomvRiLd7y4T++DrFCiIy/+cWoB7uhFI3lae6ybWbUpgQ4vTj/KA/llfFjP4azulsX2JA4TK/M+OoxQM2XX0DMNx9S9DcXNfNBnY15jmFva6jegbutfCC65C4TPnIm1akAP5AkslTZxI64eQb0Pv5bo61pd6KjV/t0MSK/6AAFC28/QTn/MjsM/Hhe1ERFYXgW3cMc77Ze3aZWrzW6VeEUTjJDmPU1VtSqFMGlkDU3oGtoDnakQruEwZ9EUhT8xHyez5bJpjShYpgzjHlTMZqNsHL3jCeeUGMNYJsZ8a6Uo/jKKfqlPgPeOeqOCLgkJ2/jEv8oXCNWkFZFgVahyawuS91zDEAlrOUcTwV9ABnCb8zjD2eu/cRTZ/tByW3w=
+    on:
+      tags: true
+      repo: IBM/backwork-notifier-sentry
