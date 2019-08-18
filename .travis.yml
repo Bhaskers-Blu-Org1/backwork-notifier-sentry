@@ -7,7 +7,6 @@ install:
 script:
 - echo "no tests implemented"
 deploy:
-  matrix:
   - provider: pypi
     user: __token__
     password:
