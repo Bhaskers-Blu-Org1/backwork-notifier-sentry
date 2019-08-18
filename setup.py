@@ -12,7 +12,7 @@ with open(path.join(HERE, 'README.md')) as f:
 
 setup(
     name="backwork-notifier-sentry",
-    version="0.2.0",
+    version="0.2.1",
     description="Backwork plug-in for Sentry notifications.",
     long_description=LONG_DESCRIPTION,
     long_description_content_type="text/markdown",
