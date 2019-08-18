@@ -1,4 +1,4 @@
-# backwork-notifier-sentry
+# backwork-notifier-sentry [![Build Status](https://travis-ci.org/IBM/backwork-notifier-sentry.svg?branch=master)] [![PyPI version](https://badge.fury.io/py/backwork-notifier-sentry.svg)](https://badge.fury.io/py/backwork-notifier-sentry)(https://travis-ci.org/IBM/backwork-notifier-sentry)
 Add support for [Sentry](https://sentry.io) notifications on [`backwork`](https://github.com/IBM/backwork).
 
 ## Installing
